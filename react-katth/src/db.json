@@ -1,0 +1,27 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "num": "001",
+        "name": "Cafe americano",
+        "price": 5
+      },
+      {
+        "id": 2,
+        "num": "002",
+        "name": "Cafe capuccino",
+        "price": 5
+      }
+
+    ], 
+    "products":[
+        {
+            "id": 3,
+            "num": "003",
+            "name": "Cafe latte",
+            "price": 5
+          } 
+
+    ]
+       
+}
