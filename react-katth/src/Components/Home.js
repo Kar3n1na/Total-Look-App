@@ -1,44 +1,36 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
+import { useHistory } from 'react-router';
 import "../Components/Home.css";
 import Header from "./Header";
 import Body from "./Body.js";
-import Shoes from "./Shoes.js"
 import Footer from "./Footer.js";
+import Shoes from './Shoes.js';
 
 function Home() {
 
-  //const [products, setProducts] = useState();
+  const history = useHistory();
 
-  const getData = async () => {
-    const urls = [
-      `http://localhost:8000/clothing`,
-      `http://localhost:8000/shoes`,
-      `http://localhost:8000/accessories`
-    ];
-    
-    let requests = urls.map(url => fetch(url));
-    
-    Promise.all(requests)
-    .then(responses => {
-      return responses;
-    }).then(responses => Promise.all(responses.map(r => r.json())))
-    .then((response) => {
-      let mergedArray = response.reduce((acc, category) => acc.concat(category), []);
-      console.log(mergedArray);
-    })
+  const historyPageA = () => {
+    history.push('/Shoes')
   }
   
-  useEffect(() =>{
-    getData();
-  }, [])
 
   return (
+    <>
+    <div className="ProductsBtn">
+      <button onClick={historyPageA}
+        className="buttonP">Shoes</button>
+      
+    </div >
+    
+              
+
     <div className="Home">
       <Header />
-      <Body/>
-      <Shoes/>
+      <Body />
       <Footer />
     </div>
+    </>
   );
 }
 
