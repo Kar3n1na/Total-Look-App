@@ -13,6 +13,7 @@ const getData = async () => {
     }).then(responses => Promise.all(responses.map(r => r.json())))
     .then((response) => {
       let mergedArray = response.reduce((acc, category) => acc.concat(category), []);
+      console.log(mergedArray);
       return mergedArray;
     })
 }

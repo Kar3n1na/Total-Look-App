@@ -1,0 +1,24 @@
+
+.Card{
+  width: 291px;
+  height: 410px;
+  border: 1px solid black;
+  font-family: Roboto;
+  /* box-shadow: 0 0 5px rgb(34, 33, 33), 0 0 10px black, 0 0 10px black; */
+   box-shadow: 0 10px 20px black;
+   margin: 50px;
+}
+.Card_img{
+    width: 289px;
+    height: 297px;
+
+}
+.Card p{
+    margin-top: 4px;
+    text-align: center;
+    line-height: 140%;
+}
+.material-icons{
+    margin-left: 250px;
+
+}
