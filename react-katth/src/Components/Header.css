@@ -1,0 +1,25 @@
+.Header {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header_logo {
+  width: 110px;
+  height: 110px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.Header p {
+  color: white;
+  font-size: 25px;
+}
+
+.Header_carrito {
+  padding-right: 30px;
+  width: 65px;
+}
