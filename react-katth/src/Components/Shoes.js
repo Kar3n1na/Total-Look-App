@@ -11,7 +11,7 @@ const Shoes = () => {
     }, [])
 
     const getData = async() => {
-        const data= await fetch('http://localhost:8000/shoes')
+        const data= await fetch('https://apitotallook.herokuapp.com/shoes')
         const allproducts = await data.json()
         setShoes(allproducts)
     }
