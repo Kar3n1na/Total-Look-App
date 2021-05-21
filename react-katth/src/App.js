@@ -1,15 +1,26 @@
 import React, { useEffect } from 'react';
-//import Mock from './Mock';
 import './App.css';
+//import getData from './main';
 
 function App() {
-  let getData = async() => {
-    const url = `http://localhost:8000/clothing`
-    const getFetchData = await fetch(url).then(result => result.json())
-    console.log(getFetchData)
-  }
   useEffect(() =>{
-    getData()
+    const urls = [
+      `http://localhost:8000/clothing`,
+      `http://localhost:8000/shoes`,
+      `http://localhost:8000/accessories`
+    ];
+    
+    let requests = urls.map(url => fetch(url));
+
+    Promise.all(requests)
+      .then(responses => {
+        return responses;
+      }).then(responses => Promise.all(responses.map(r => r.json())))
+      .then((response) => {
+        console.log(response);
+        let mergedArray = response.reduce((acc, category) => acc.concat(category), []);
+        console.log(mergedArray);
+      })
   }, [])
   return (
     <div className="App">
