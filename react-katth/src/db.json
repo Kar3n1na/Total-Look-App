@@ -1,26 +1,202 @@
 {
-    "menu": [
+    "clothing": [
       {
         "id": 1,
-        "num": "001",
-        "name": "Cafe americano",
-        "price": 5
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/05/08/1620458365c9f4de5b280e5532bcf67274f9790661_thumbnail_600x.webp",
+        "name": "Vestido",
+        "description": "Vestido tank con cinturón unicolor con hombrera",
+        "price": "274"
       },
       {
         "id": 2,
-        "num": "002",
-        "name": "Cafe capuccino",
-        "price": 5
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/05/10/1620619530f7aeb3b249eba6f7821eb596b588607f_thumbnail_600x.webp",
+        "name": "Blusa",
+        "description": "Blusas Cut-out Lunares Casual",
+        "price": "218"
+      },
+      {
+        "id": 3,
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/01/06/1609900190a740415a29deaa2afa8e97f359e0bec2_thumbnail_600x.webp",
+        "name": "Mono",
+        "description": "Monos Tribal Bohemio",
+        "price": "157"
+      },
+      {
+        "id": 4,
+        "image":"https://user-images.githubusercontent.com/75234502/119054205-d67cdf80-b98c-11eb-99c3-b352e763d2b6.jpg",
+        "name": "Camisa",
+        "description": "Camisa con botón liso casual",
+        "price": "336"
+      },
+      {
+        "id": 5,
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/04/08/161788117735ba41b72d6f707e00d620c613f54dab.webp",
+        "name": "Blusa",
+        "description": "DAZY Blusas Botón Liso Casual",
+        "price": "293"
+      },
+      {
+        "id": 6,
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/04/02/1617326618d9815b852f2d687b3b5c6558ecd50e81_thumbnail_600x.webp",
+        "name": "Blusa",
+        "description": "Blusas Escamas Lunares Bohemio",
+        "price": "96"
+      },
+      {
+        "id": 7,
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/05/10/1620619530f7aeb3b249eba6f7821eb596b588607f_thumbnail_600x.webp",
+        "name": "Chamarra de mezclilla",
+        "description": "Chamarra de mezclilla con gorro",
+        "price": "218"
+      },
+      {
+        "id": 8,
+        "image":"https://user-images.githubusercontent.com/75234502/119053360-949f6980-b98b-11eb-8919-9ca684fecb30.jpg",
+        "name": "Short playa",
+        "description": "Short de playa ligero con cordón y estampado",
+        "price": "180"
+      },
+      {
+        "id": 9,
+        "image":"https://user-images.githubusercontent.com/75234502/119053941-68381d00-b98c-11eb-914d-7c50779c5389.jpg",
+        "name": "Pantalón ",
+        "description": "Pantalones de cintura con cordón unicolor",
+        "price": "313"
       }
 
     ], 
-    "products":[
-        {
-            "id": 3,
-            "num": "003",
-            "name": "Cafe latte",
-            "price": 5
-          } 
+    "shoes":[
+      {
+        "id": 1,
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/03/03/16147491988252d9f16bd1b6a2585e2b65ee1dd9fd_thumbnail_600x.webp",
+        "name": "Sandalias Con Lazo",
+        "description": "Sandalias chanclas con diseño de lazo",
+        "price": "373"
+      },
+      {
+        "id": 2,
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/04/09/1617936018a4aa4bd823378333498f0c10a316c0d7_thumbnail_600x.webp",
+        "name": "Pantunflas",
+        "description": "Chanclas de dormitorio con lazo",
+        "price": "263"
+      },
+      {
+        "id": 3,
+        "image":"https://img.ltwebstatic.com/images3_pi/2020/03/17/1584417905f79238a59ce6723b5e028ab41c5b0275_thumbnail_600x.webp",
+        "name": "Sandalias con  tobillera",
+        "description": "Sandalias planas con tira tobillera con hebilla de punta abierta",
+        "price": "329"
+      },
+      {
+        "id": 4,
+        "image":"https://img.ltwebstatic.com/images3_pi/2020/12/14/16079276813e9fe2ee3cc9a43820569d5f20af4619_thumbnail_600x.webp",
+        "name": "Botas Comodas",
+        "description": "Botas chanclas con forro de pelo sintético de cheurón",
+        "price": "175"
+      },
+      {
+        "id": 5,
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/03/31/1617168747742801eeaee26eda7a06787baa9ae67f_thumbnail_600x.webp",
+        "name": "Chanclas de dedo",
+        "description": "Chanclas de dedo de suela con estampado floral",
+        "price": "158"
+      },
+      {
+        "id": 6,
+        "image":"https://img.ltwebstatic.com/images3_pi/2020/02/13/15815842085aa52c3e482508614a51cb1e1e68ce30_thumbnail_600x.webp",
+        "name": "Alpargatas",
+        "description": "Sandalias de alpargata en forma de punta abierta con doble banda",
+        "price": "551"
+      },
+      {
+        "id": 7,
+        "image":"https://img.ltwebstatic.com/images3_pi/2020/06/29/1593409536ec0a1be42b0eb59677e47037d4ec6f98_thumbnail_600x.webp",
+        "name": "Chanclas de hebilla",
+        "description": "Chanclas con hebilla con ojal",
+        "price": "318"
+      },
+      {
+        "id": 8,
+        "image":"https://img.ltwebstatic.com/images3_pi/2021/01/26/16116327830055a609a081db3a9fc9320ad2a4cb02_thumbnail_600x.webp",
+        "name": "Pantuflas Old Woman",
+        "description": "Chanclas tejidas de punta redonda",
+        "price": "216"
+      },
+      {
+        "id": 9,
+        "image":"https://img.ltwebstatic.com/images3_pi/2020/01/06/1578303356735b25ae87aeabc281d42bf114fc342d.webp",
+        "name": "Flats",
+        "description": "Planos Liso Negro cómodo",
+        "price": "380"
+      }
+
+    ],
+
+    "accessories": [
+      {
+        "id": 1,
+        "image":"https://unsplash.com/photos/JblwtK032ag",
+        "name": "Gafas",
+        "description": "Lentes Steve Jobs ",
+        "price": "375"
+      },
+      {
+        "id": 2,
+        "image":"https://unsplash.com/photos/1-nx1QR5dTE",
+        "name": "Lentes",
+        "description": "Lentes de Sol Monster",
+        "price": "343"
+      },
+      {
+        "id": 3,
+        "image":"https://unsplash.com/photos/zZLhoEwGCeM",
+        "name": "Anillo",
+        "description": "Anillo Triple Dorado",
+        "price": "255"
+      },
+      {
+        "id": 4,
+        "image":"https://unsplash.com/photos/dUGJOlTkE1w",
+        "name": "Coyar",
+        "description": "Collar dorado y perlas",
+        "price": "180"
+      },
+      {
+        "id": 5,
+        "image":"https://unsplash.com/photos/QuVVqKy2V-I",
+        "name": "Set",
+        "description": "Set plateado y flores",
+        "price": "193"
+      },
+      {
+        "id": 6,
+        "image":"https://images.unsplash.com/photo-1603561596112-0a132b757442?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGpld2Vscnl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "name": "Anillo",
+        "description": "Anillo Rosa y Blanco",
+        "price": "165"
+      },
+      {
+        "id": 7,
+        "image":"https://images.unsplash.com/photo-1589128777073-263566ae5e4d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGpld2Vscnl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "name": "Collar",
+        "description": "Collar platedo brillante",
+        "price": "325"
+      },
+      {
+        "id": 8,
+        "image":"https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "name": "Reloj",
+        "description": "Reloj Cafe ",
+        "price": "420"
+      },
+      {
+        "id": 9,
+        "image":"https://images.unsplash.com/photo-1594370607187-38a23fe6aa24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80",
+        "name": "Lentes",
+        "description": "Lentes Casuales Carter",
+        "price": "220"
+      }
+
 
     ]
        

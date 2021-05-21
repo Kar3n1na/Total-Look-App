@@ -1,11 +1,12 @@
 import React from "react";
 import "./Category.css";
 import clothes from "../Assets/clothes.png"
+
 function Category() {
     return (
         <div class="contendor">
-            <img src={clothes} alt="" />
-            <div class="texto-encima">Texto Imagen :3</div>
+            <img src={clothes} alt=""></img>
+            <div class="texto-encima"></div>
         </div>
     );
 }

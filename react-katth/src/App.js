@@ -1,11 +1,12 @@
-import React from "react";
-//import Home from "./Components/Home.js";
-import Category from "./Components/Category.js";
+import React from 'react';
+import './App.css';
+
+import Home from "./Components/Home.js";
 
 function App() {
   return (
     <div className="App">
-      <Category />
+      <Home></Home>
     </div>
   );
 }
