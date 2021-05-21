@@ -1,13 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
-import getData from './main';
+
+import Home from "./Components/Home.js";
 
 function App() {
-  useEffect(() =>{
-    getData();
-  }, [])
   return (
     <div className="App">
+      <Home></Home>
     </div>
   );
 }
