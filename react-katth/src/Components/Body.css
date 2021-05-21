@@ -1,0 +1,10 @@
+.Body {
+  width: 100vw;
+  height: 85vh;
+}
+
+.Baner {
+  width: 90vh;
+  height: 40vh;
+  background-color: aqua;
+}
