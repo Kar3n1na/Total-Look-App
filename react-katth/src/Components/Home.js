@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import "../Components/Home.css";
 import Header from "./Header";
 import Body from "./Body.js";
+import Shoes from "./Shoes.js"
 import Footer from "./Footer.js";
 
 function Home() {
@@ -24,7 +25,6 @@ function Home() {
     .then((response) => {
       let mergedArray = response.reduce((acc, category) => acc.concat(category), []);
       console.log(mergedArray);
-      setProducts(mergedArray)
     })
   }
   
@@ -35,8 +35,8 @@ function Home() {
   return (
     <div className="Home">
       <Header />
-      <Body
-       />
+      <Body/>
+      <Shoes/>
       <Footer />
     </div>
   );
