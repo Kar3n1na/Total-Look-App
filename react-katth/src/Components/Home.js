@@ -3,6 +3,7 @@ import "../Components/Home.css";
 import Header from "./Header";
 import Body from "./Body.js";
 import Shoes from "./Shoes.js"
+import Accessories from "./Accessories.js"
 import Footer from "./Footer.js";
 
 function Home() {

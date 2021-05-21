@@ -135,35 +135,35 @@
     "accessories": [
       {
         "id": 1,
-        "image":"https://unsplash.com/photos/JblwtK032ag",
+        "image":"https://images.unsplash.com/photo-1606357100116-f787c70ea04f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
         "name": "Gafas",
         "description": "Lentes Steve Jobs ",
         "price": "375"
       },
       {
         "id": 2,
-        "image":"https://unsplash.com/photos/1-nx1QR5dTE",
+        "image":"https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
         "name": "Lentes",
         "description": "Lentes de Sol Monster",
         "price": "343"
       },
       {
         "id": 3,
-        "image":"https://unsplash.com/photos/zZLhoEwGCeM",
+        "image":"https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
         "name": "Anillo",
         "description": "Anillo Triple Dorado",
         "price": "255"
       },
       {
         "id": 4,
-        "image":"https://unsplash.com/photos/dUGJOlTkE1w",
+        "image":"https://images.unsplash.com/photo-1602752250055-5ebb552fc3ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
         "name": "Coyar",
         "description": "Collar dorado y perlas",
         "price": "180"
       },
       {
         "id": 5,
-        "image":"https://unsplash.com/photos/QuVVqKy2V-I",
+        "image":"https://images.unsplash.com/photo-1600364971552-381b40141177?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
         "name": "Set",
         "description": "Set plateado y flores",
         "price": "193"
