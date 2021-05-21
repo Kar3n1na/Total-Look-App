@@ -1,37 +1,32 @@
 import React, {useEffect, useState} from 'react'
 import Card from './Card.js'
+import Home from './Home.js'
+const Accessories = () => {
 
-const Clothing = () => {
-
-
-
-    const [clothing, setClothing] = useState([])
-
-
+    
+    const [accessories, setAccessories] = useState([])
     useEffect(()=> {
        getData ()
     }, [])
 
     const getData = async() => {
-        const data= await fetch('https://apitotallook.herokuapp.com/clothing')
+        const data= await fetch('https://apitotallook.herokuapp.com/accessories')
         const allproducts = await data.json()
-        setClothing(allproducts)
+        setAccessories(allproducts)
     }
-
     return (
-      <div>
-        {clothing && clothing.map ((product) => <Card 
+        <div>
+        {accessories && accessories.map ((product) => <Card 
             key={product.id} 
             price={product.price}
             image = {product.image}
             description = {product.description}
             name = {product.name}
          /> 
-
                     )
                 }
       </div>
     )
 }
 
-export default Clothing;
+export default Accessories

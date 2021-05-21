@@ -5,7 +5,7 @@ import "./Card.css";
 
 
 function Card(props) {
-  const {id, description, price, image, name } = props;
+  const { description, price, image, name } = props;
   console.log(props)
   return (
     <div className="Card">

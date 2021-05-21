@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import Card from './Card.js'
-// import Home from './Home.js'
+
 const Shoes = () => {
 
     const [shoes, setShoes] = useState([])
@@ -25,13 +25,6 @@ const Shoes = () => {
             description = {product.description}
             name = {product.name}
          /> 
-/*                 <div className="Card">
-                  <img className="Card_img">{shoe.image}</img> 
-                  <p>{shoe.description}</p>            
-                  <p><b>{shoe.price}</b></p>               
-                  <p>Tallas</p>
-                  <span class="material-icons">add_box</span>
-               </div> */
                     )
                 }
       </div>
